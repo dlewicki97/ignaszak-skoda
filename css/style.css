@@ -1,0 +1,327 @@
+@import "fonts/skoda-next.css";
+*{
+	font-family: "SKODA Next";
+	transition: all 0.15s;
+}
+.contact-submit-button, .contact-deny-button, .offer-ask, .offer-test-drive, .offer-pricelist, .more-button, img{
+	transition: all 0.15s;
+}
+img:not(.attributes-bg):hover, .gallery-attributes-row:hover > .col-12{
+	transform: scale(1.1);
+} 
+button{
+	font-weight: 600!important;
+}
+.md-form input:not(.browser-default):focus:not([readonly]){
+	border-bottom: 1px solid white!important;
+	box-shadow: 0 1px 0 0 white!important;
+}
+.md-form input:not(.browser-default):focus:not([readonly])+label{
+	color: white!important;
+}
+.form-check-input[type="checkbox"]+label:before{
+	border-color: white;
+	border-width: 1px;
+	width: 15px;
+	height: 15px;
+}
+.form-check-input[type="checkbox"]:checked+label:before{
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	top:-2px;
+	width: 10px;
+	height: 1rem;
+}
+.form-check-input[type="checkbox"]+label{
+	padding-left: 25px;
+}
+.navbar{
+	box-shadow: unset;
+}
+.header-separator{
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 20px;
+}
+.contact-bg{
+	background-color: #000709;
+}
+.contact-title{
+	color: #fff;
+	font-weight: 700;
+	font-size: 2rem;
+}
+.contact-subtitle{
+	color: #fff;
+	font-size: .9rem;
+}
+.checkbox-label{
+	font-size: .7rem;
+	font-weight: 400;
+}
+.input-label{
+	font-size: .9rem!important;
+}
+.contact-submit-button, .contact-deny-button{
+	border-radius: 6px;
+	padding: 10px 15px;
+	border: 1px solid white;
+	font-weight: 500;
+}
+.contact-submit-button{
+	color: black;
+	background-color: white;
+}
+.contact-submit-button:hover{
+	color: white;
+	background-color: #37b34a;
+	border-color: #37b34a;
+}
+.contact-deny-button{
+	background-color: black;
+	color: white;
+}
+
+.contact-deny-button:{
+	background-color: white;
+	color: black;
+}
+
+.bg-picture{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+.bestseller{
+	background-color: #141414;
+}
+.bestseller-title, .bestseller-subtitle{
+	text-align: center;
+}
+.bestseller-title{
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+.bestseller-subtitle{
+	font-size: 1.9rem;
+	font-weight: 700;
+}
+.bestseller-mark{
+	font-weight: 500;
+}
+.bestseller-pricelist-link{
+	color: #37b34a!important;
+	text-decoration: underline;
+}
+.offer{
+	background-color: #0b0b0b;
+}
+.offer-title{
+	font-size: 2.1rem;
+	color: white;
+}
+.offer-description{
+	color: #b3b8b9;
+}
+.offer-ask, .offer-test-drive, .offer-pricelist {
+	border: 1px solid white;
+	padding: 10px 30px;
+	background-color: #0b0b0b;
+	border-radius: 6px;
+	color: white;
+}
+.offer-ask{
+	background-color: #f44336;
+	border-color: #f44336;
+}
+.offer-ask:hover{
+	background-color: white;
+	border-color: white;
+	color: #f44336;
+}
+.offer-test-drive:hover, .offer-pricelist:hover, .contact-deny-button:hover, .more-button:hover, .gallery-button:hover{
+	background-color: #f44336;
+	color: white;
+	border-color: #f44336;
+}
+.attributes{
+	color: white;
+	background-color: #141414;
+}
+.attributes-title, .gallery-attributes-title{
+	font-size: 3rem;
+	font-weight: 400;
+}
+.attributes-row, .gallery-attributes-row{
+	padding: 50px 0px;
+}
+.attributes-bg{
+	width: 45%;
+	height: 80%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.more{
+	background-color: #0b0b0b;
+	color: white;
+}
+.more-button, .gallery-button{
+	border-radius: 6px;
+	padding: 10px 50px;
+	background-color: #0b0b0b;
+	color: white;
+	border: 1px solid white;
+}
+
+
+.gallery{
+	background-color: #141414;
+	color: white;
+	padding-top: 4rem;
+}
+.gallery-header{
+	font-size: 3rem;
+}
+.gallery-button{
+	background-color: #141414;
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+.gallery-picture{
+	height:400px;
+}
+.gallery-attributes-container{
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+.gallery-attributes-img{
+	height: 350px;
+}
+.gallery-attributes-description, .gallery-attributes-description-left{
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%, -50%)!important;
+	z-index: 1;
+	position: absolute;
+}
+.gallery-attributes-description-left{
+	left: 28%;
+}
+.gallery-attributes-img-mask-left, .gallery-attributes-img-mask-right{
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	position: absolute;
+}
+.gallery-attributes-img-mask-left{
+	background-image: linear-gradient(to right, #141414 0%, rgba(20, 20, 20, 0.96) 6%, rgba(20, 20, 20, 0) 29%);
+}
+.gallery-attributes-img-mask-right{
+	background-image: linear-gradient(270deg, #141414 0%, rgba(20, 20, 20, 0.96) 6%, rgba(20, 20, 20, 0) 29%);
+}
+
+.copyright{
+	background-color: #141414;
+	color: white;
+}
+
+.ad-awards:hover{
+	color: #f44336!important;
+}
+@media(max-width: 992px) {
+	.banner-photo {
+		height: 70vh;
+	}
+}
+
+@media(min-width: 1000px){
+	.contact-col-submit{
+		padding-right: 0.5rem!important;
+	}
+	.contact-col-deny{
+		padding-left: 0.5rem!important;
+	}
+}
+@media(max-width: 436px){
+	.gallery-button{
+		margin-bottom: .5rem;
+		width: 100%
+	}
+}
+
+@media(max-width: 390px){
+	.navbar{
+		flex-wrap: wrap;
+	}
+}
+@media(min-width: 391px){
+	.navbar{
+		flex-wrap: nowrap;
+
+	}
+}
+
+@media(max-width: 400px){
+	.attributes-title, .gallery-attributes-title{
+		font-size: 2.5rem;
+	}
+}
+@media(min-width: 991px){
+	.gallery-picture{
+		height: 800px;
+	}
+}
+
+@media(max-width: 990px){
+	.gallery-picture{
+		height: 400px;
+	}
+	.gallery-attributes-img{
+		height: 200px;
+	}
+
+	.attribute-description-lg, .gallery-attributes-description-lg{
+		display: none!important;
+	}
+	.gallery-attributes-description, .gallery-attributes-description-left{
+		position: static;
+		transform: unset!important;
+		padding-top: .5rem;
+	}
+	.gallery-attributes-container{
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+}
+
+@media(min-width: 991px){
+	.attribute-description-mobile, .gallery-attributes-description-mobile{
+		display: none!important;
+	}
+}
+
+@media(max-width: 576px){
+	.offer-description{
+		justify-content: center;
+	}
+	.offer-title, .offer-description{
+		text-align:center;
+	}
+	.offer-buttons{
+		flex-wrap: wrap;
+	}
+	.offer-ask, .offer-test-drive, .offer-pricelist{
+		width: 100%;
+		margin-right: 0!important;
+	}
+}
+@media(max-width: 330px){
+	.attributes-title, .gallery-attributes-title{
+		font-size: 2.2rem;
+	}
+}
